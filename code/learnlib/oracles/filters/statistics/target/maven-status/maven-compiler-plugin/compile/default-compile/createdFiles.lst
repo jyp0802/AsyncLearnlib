@@ -1,0 +1,15 @@
+de\learnlib\filter\statistic\HistogramDataSet.class
+de\learnlib\filter\statistic\oracle\CounterOracle.class
+de\learnlib\filter\statistic\oracle\HistogramOracle.class
+de\learnlib\filter\statistic\oracle\CounterOracle$DFACounterOracle.class
+de\learnlib\filter\statistic\oracle\CounterOracle$MealyCounterOracle.class
+de\learnlib\filter\statistic\oracle\JointCounterOracle$DFAJointCounterOracle.class
+de\learnlib\filter\statistic\oracle\JointCounterOracle$MealyJointCounterOracle.class
+de\learnlib\filter\statistic\AbstractStatisticData.class
+de\learnlib\filter\statistic\Counter.class
+de\learnlib\filter\statistic\sul\ResetCounterObservableSUL.class
+de\learnlib\filter\statistic\sul\SymbolCounterObservableSUL.class
+de\learnlib\filter\statistic\sul\SymbolCounterSUL.class
+de\learnlib\filter\statistic\oracle\CounterSymbolQueryOracle.class
+de\learnlib\filter\statistic\sul\ResetCounterSUL.class
+de\learnlib\filter\statistic\oracle\JointCounterOracle.class

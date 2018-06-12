@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="40" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1513" started-at="2018-04-19T08:22:55Z" finished-at="2018-04-19T08:22:57Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="1513" started-at="2018-04-19T08:22:55Z" finished-at="2018-04-19T08:22:57Z">
+      <class name="de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="testFindCounterExample" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddWord()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="testAddWord" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddWord -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetMaxWords()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="testGetMaxWords" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxWords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextInput()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="testNextInput" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextInput -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPre()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a]" name="testPre" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPre -->
+      </class> <!-- de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest -->
+      <class name="de.learnlib.oracle.blackbox.CExFirstBBOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="942" started-at="2018-04-19T17:22:56Z" finished-at="2018-04-19T17:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAmount()[pri:0, instance:de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef]" name="testAmount" duration-ms="3" started-at="2018-04-19T17:22:56Z" finished-at="2018-04-19T17:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmount -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:56Z" finished-at="2018-04-19T17:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCache()[pri:0, instance:de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef]" name="testCache" duration-ms="10" started-at="2018-04-19T17:22:56Z" finished-at="2018-04-19T17:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCache -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef]" name="testFindCounterExample" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+      </class> <!-- de.learnlib.oracle.blackbox.CExFirstBBOracleTest -->
+      <class name="de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAmount()[pri:0, instance:de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185]" name="testAmount" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmount -->
+        <test-method status="PASS" signature="testCache()[pri:0, instance:de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185]" name="testCache" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCache -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185]" name="testFindCounterExample" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+      </class> <!-- de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest -->
+      <class name="de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="setUp" is-config="true" duration-ms="175" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDisproveCached()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="testDisproveCached" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisproveCached -->
+        <test-method status="PASS" signature="testDisproveUncached()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="testDisproveUncached" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDisproveUncached -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExampleCached()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="testFindCounterExampleCached" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExampleCached -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExampleUncached()[pri:0, instance:de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11]" name="testFindCounterExampleUncached" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExampleUncached -->
+      </class> <!-- de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest -->
+      <class name="de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="testFindCounterExample" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddWord()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="testAddWord" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddWord -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetMaxWords()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="testGetMaxWords" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxWords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextInput()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="testNextInput" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextInput -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPre()[pri:0, instance:de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a]" name="testPre" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPre -->
+      </class> <!-- de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest -->
+      <class name="de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="setUp" is-config="true" duration-ms="33" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddWord()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="testAddWord" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddWord -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="setUp" is-config="true" duration-ms="2" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetMaxWords()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="testGetMaxWords" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxWords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextInput()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="testNextInput" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextInput -->
+        <test-method status="PASS" signature="testPre()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="testPre" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPre -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d]" name="testFindCounterExample" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+      </class> <!-- de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest -->
+      <class name="de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="setUp" is-config="true" duration-ms="183" started-at="2018-04-19T17:22:56Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="testFindCounterExample" duration-ms="4" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddWord()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="testAddWord" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddWord -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetMaxWords()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="testGetMaxWords" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxWords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextInput()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="testNextInput" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextInput -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPre()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c]" name="testPre" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPre -->
+      </class> <!-- de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest -->
+      <class name="de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="setUp" is-config="true" duration-ms="47" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="testFindCounterExample" duration-ms="2" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddWord()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="testAddWord" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddWord -->
+        <test-method status="PASS" signature="testGetMaxWords()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="testGetMaxWords" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxWords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextInput()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="testNextInput" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextInput -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPre()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3]" name="testPre" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPre -->
+      </class> <!-- de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest -->
+      <class name="de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="setUp" is-config="true" duration-ms="44" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddWord()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="testAddWord" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddWord -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetMaxWords()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="testGetMaxWords" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMaxWords -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testNextInput()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="testNextInput" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextInput -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPre()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="testPre" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPre -->
+        <test-method status="PASS" signature="testFindCounterExample()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="testFindCounterExample" duration-ms="1" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindCounterExample -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79]" name="setUp" is-config="true" duration-ms="0" started-at="2018-04-19T17:22:57Z" finished-at="2018-04-19T17:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

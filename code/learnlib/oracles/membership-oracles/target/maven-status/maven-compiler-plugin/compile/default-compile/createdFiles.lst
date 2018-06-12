@@ -1,0 +1,14 @@
+de\learnlib\oracle\membership\SimulatorOmegaOracle.class
+de\learnlib\oracle\membership\SimulatorOmegaOracle$MealySimulatorOmegaOracle.class
+de\learnlib\oracle\membership\SULOracle.class
+de\learnlib\oracle\membership\FilterChain.class
+de\learnlib\oracle\membership\MappedOracle.class
+de\learnlib\oracle\membership\SULSymbolQueryOracle.class
+de\learnlib\oracle\membership\AbstractSULOmegaOracle$1.class
+de\learnlib\oracle\membership\AbstractSULOmegaOracle$DeepCopySULOmegaOracle.class
+de\learnlib\oracle\membership\AbstractSULOmegaOracle$ShallowCopySULOmegaOracle.class
+de\learnlib\oracle\membership\SimulatorOmegaOracle$DFASimulatorOmegaOracle.class
+de\learnlib\oracle\membership\SimulatorOracle$MealySimulatorOracle.class
+de\learnlib\oracle\membership\AbstractSULOmegaOracle.class
+de\learnlib\oracle\membership\SimulatorOracle.class
+de\learnlib\oracle\membership\SimulatorOracle$DFASimulatorOracle.class

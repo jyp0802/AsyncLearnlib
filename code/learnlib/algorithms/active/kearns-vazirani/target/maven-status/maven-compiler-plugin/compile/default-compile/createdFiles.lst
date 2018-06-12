@@ -1,0 +1,11 @@
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFA$BuilderDefaults.class
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFA.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealyBuilder.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealy$KVAbstractCounterexample.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealy.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealy$BuilderDefaults.class
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFA$KVAbstractCounterexample.class
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFABuilder.class
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFAState.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealyState.class
+de\learnlib\algorithms\kv\StateInfo.class

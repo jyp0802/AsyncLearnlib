@@ -1,0 +1,1 @@
+This package is a modification of the original learnlib repository in https://github.com/LearnLib/learnlib

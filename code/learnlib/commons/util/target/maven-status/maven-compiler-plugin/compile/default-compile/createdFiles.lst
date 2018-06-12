@@ -1,0 +1,13 @@
+de\learnlib\util\mealy\MealyUtil.class
+de\learnlib\util\BBCExperiment$MealyBBCExperiment.class
+de\learnlib\util\Experiment$MealyExperiment.class
+de\learnlib\util\BBCExperiment.class
+de\learnlib\util\BBCExperiment$DFABBCExperiment.class
+de\learnlib\util\statistics\SimpleProfiler.class
+de\learnlib\util\Experiment$DFAExperiment.class
+de\learnlib\util\mealy\SymbolOracleWrapper.class
+de\learnlib\util\nfa\NFALearnerWrapper.class
+de\learnlib\util\Experiment.class
+de\learnlib\util\MQUtil.class
+de\learnlib\util\mealy\SymbolOracleWrapper$LastSymbolQuery.class
+de\learnlib\util\mealy\MealyLearnerWrapper.class

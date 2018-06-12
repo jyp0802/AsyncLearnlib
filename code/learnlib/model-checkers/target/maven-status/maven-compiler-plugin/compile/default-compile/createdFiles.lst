@@ -1,0 +1,11 @@
+de\learnlib\modelchecking\modelchecker\LTSminLTLIO.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLDFABuilder.class
+de\learnlib\modelchecking\modelchecker\AbstractLTSminLTL$BuilderDefaults.class
+de\learnlib\modelchecking\modelchecker\AbstractUnfoldingModelChecker.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLIOBuilder.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLDFA.class
+de\learnlib\modelchecking\modelchecker\AbstractLTSminLTLMealy.class
+de\learnlib\modelchecking\modelchecker\AbstractLTSminLTL.class
+de\learnlib\modelchecking\modelchecker\LTSminUtil.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLAlternatingBuilder.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLAlternating.class

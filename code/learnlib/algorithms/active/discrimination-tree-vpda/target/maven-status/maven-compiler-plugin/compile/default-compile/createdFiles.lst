@@ -1,0 +1,15 @@
+de\learnlib\algorithms\discriminationtree\vpda\DTLearnerVPDA$PrefixTransformAcex.class
+de\learnlib\algorithms\discriminationtree\vpda\AbstractVPDALearner.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\AbstractHypTrans.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\OneSEVPAHypothesis$1.class
+de\learnlib\algorithms\discriminationtree\vpda\DTLearnerVPDABuilder.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\DTree.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\HypRetTrans.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\HypIntTrans.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\HypLoc.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\BlockList.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\ContextPair.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\OneSEVPAHypothesis.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\DTNode.class
+de\learnlib\algorithms\discriminationtree\vpda\DTLearnerVPDA.class
+de\learnlib\algorithms\discriminationtree\hypothesis\vpda\TransList.class

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="135" started-at="2018-04-19T08:21:47Z" finished-at="2018-04-19T08:21:47Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="135" started-at="2018-04-19T08:21:47Z" finished-at="2018-04-19T08:21:47Z">
+      <class name="de.learnlib.setting.LearnLibSettingsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.setting.LearnLibSettingsTest@7c75222b]" name="setUp" is-config="true" duration-ms="11" started-at="2018-04-19T17:21:47Z" finished-at="2018-04-19T17:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testProperties()[pri:0, instance:de.learnlib.setting.LearnLibSettingsTest@7c75222b]" name="testProperties" duration-ms="114" started-at="2018-04-19T17:21:47Z" finished-at="2018-04-19T17:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProperties -->
+      </class> <!-- de.learnlib.setting.LearnLibSettingsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

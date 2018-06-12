@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="239" started-at="2018-04-19T08:22:46Z" finished-at="2018-04-19T08:22:46Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="239" started-at="2018-04-19T08:22:46Z" finished-at="2018-04-19T08:22:46Z">
+      <class name="de.learnlib.algorithms.rpni.MDLScoreTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.algorithms.rpni.MDLScoreTest@5d624da6]" name="setUp" is-config="true" duration-ms="114" started-at="2018-04-19T17:22:46Z" finished-at="2018-04-19T17:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFinalHypothesis()[pri:0, instance:de.learnlib.algorithms.rpni.MDLScoreTest@5d624da6]" name="testFinalHypothesis" duration-ms="103" started-at="2018-04-19T17:22:46Z" finished-at="2018-04-19T17:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinalHypothesis -->
+        <test-method status="PASS" signature="testPTAValue()[pri:0, instance:de.learnlib.algorithms.rpni.MDLScoreTest@5d624da6]" name="testPTAValue" duration-ms="1" started-at="2018-04-19T17:22:46Z" finished-at="2018-04-19T17:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPTAValue -->
+      </class> <!-- de.learnlib.algorithms.rpni.MDLScoreTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

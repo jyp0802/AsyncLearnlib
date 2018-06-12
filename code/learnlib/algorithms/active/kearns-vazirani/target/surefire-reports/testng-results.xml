@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="398" started-at="2018-04-19T08:22:22Z" finished-at="2018-04-19T08:22:22Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="398" started-at="2018-04-19T08:22:22Z" finished-at="2018-04-19T08:22:22Z">
+      <class name="de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyGrowingAlphabetTest@6276ae34]" name="setup" is-config="true" duration-ms="15" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyGrowingAlphabetTest@6276ae34]" name="testGrowingAlphabetAlphabet" duration-ms="14" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyGrowingAlphabetTest@6276ae34]" name="testInitialAlphabet" duration-ms="5" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAResumableLearnerTest@39fb3ab6]" name="setup" is-config="true" duration-ms="8" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAResumableLearnerTest@39fb3ab6]" name="testSuspendAndResumeLearner" duration-ms="80" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAGrowingAlphabetTest@61a485d2]" name="setup" is-config="true" duration-ms="127" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAGrowingAlphabetTest@61a485d2]" name="testGrowingAlphabetAlphabet" duration-ms="87" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAGrowingAlphabetTest@61a485d2]" name="testInitialAlphabet" duration-ms="8" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.kv.dfa.KearnsVaziraniDFAGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyResumableLearnerTest@7946e1f4]" name="setup" is-config="true" duration-ms="4" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyResumableLearnerTest@7946e1f4]" name="testSuspendAndResumeLearner" duration-ms="20" started-at="2018-04-19T17:22:22Z" finished-at="2018-04-19T17:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.kv.mealy.KearnsVaziraniMealyResumableLearnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

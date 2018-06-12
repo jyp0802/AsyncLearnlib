@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.LStarMealyTest" hash-for-method="testClassicLStarMealy">testClassicLStarMealy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest" hash-for-method="testGrowingAlphabetAlphabet">testGrowingAlphabetAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest" hash-for-method="testGrowingAlphabetAlphabet">testGrowingAlphabetAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest" hash-for-method="testGrowingAlphabetAlphabet">testGrowingAlphabetAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest" hash-for-method="testGrowingAlphabetAlphabet">testGrowingAlphabetAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest" hash-for-method="testGrowingAlphabetAlphabet">testGrowingAlphabetAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest" hash-for-method="testGrowingAlphabetAlphabet">testGrowingAlphabetAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest" hash-for-method="testInitialAlphabet">testInitialAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest" hash-for-method="testInitialAlphabet">testInitialAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest" hash-for-method="testInitialAlphabet">testInitialAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest" hash-for-method="testInitialAlphabet">testInitialAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest" hash-for-method="testInitialAlphabet">testInitialAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest" hash-for-method="testInitialAlphabet">testInitialAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.LStarDFATest" hash-for-method="testLStar">testLStar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.LStarMealyTest" hash-for-method="testOptimizedLStarMealy">testOptimizedLStarMealy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest" hash-for-method="testSuspendAndResumeLearner">testSuspendAndResumeLearner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest" hash-for-method="testSuspendAndResumeLearner">testSuspendAndResumeLearner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest" hash-for-method="testSuspendAndResumeLearner">testSuspendAndResumeLearner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest" hash-for-method="testSuspendAndResumeLearner">testSuspendAndResumeLearner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest" hash-for-method="testSuspendAndResumeLearner">testSuspendAndResumeLearner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest" hash-for-method="testSuspendAndResumeLearner">testSuspendAndResumeLearner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGrowingAlphabetAlphabet">
+                  </a> <!-- testGrowingAlphabetAlphabet -->
+                  <span class="method-name">testGrowingAlphabetAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitialAlphabet">
+                  </a> <!-- testInitialAlphabet -->
+                  <span class="method-name">testInitialAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGrowingAlphabetAlphabet">
+                  </a> <!-- testGrowingAlphabetAlphabet -->
+                  <span class="method-name">testGrowingAlphabetAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitialAlphabet">
+                  </a> <!-- testInitialAlphabet -->
+                  <span class="method-name">testInitialAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGrowingAlphabetAlphabet">
+                  </a> <!-- testGrowingAlphabetAlphabet -->
+                  <span class="method-name">testGrowingAlphabetAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitialAlphabet">
+                  </a> <!-- testInitialAlphabet -->
+                  <span class="method-name">testInitialAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuspendAndResumeLearner">
+                  </a> <!-- testSuspendAndResumeLearner -->
+                  <span class="method-name">testSuspendAndResumeLearner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuspendAndResumeLearner">
+                  </a> <!-- testSuspendAndResumeLearner -->
+                  <span class="method-name">testSuspendAndResumeLearner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuspendAndResumeLearner">
+                  </a> <!-- testSuspendAndResumeLearner -->
+                  <span class="method-name">testSuspendAndResumeLearner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuspendAndResumeLearner">
+                  </a> <!-- testSuspendAndResumeLearner -->
+                  <span class="method-name">testSuspendAndResumeLearner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGrowingAlphabetAlphabet">
+                  </a> <!-- testGrowingAlphabetAlphabet -->
+                  <span class="method-name">testGrowingAlphabetAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitialAlphabet">
+                  </a> <!-- testInitialAlphabet -->
+                  <span class="method-name">testInitialAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGrowingAlphabetAlphabet">
+                  </a> <!-- testGrowingAlphabetAlphabet -->
+                  <span class="method-name">testGrowingAlphabetAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitialAlphabet">
+                  </a> <!-- testInitialAlphabet -->
+                  <span class="method-name">testInitialAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.LStarDFATest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLStar">
+                  </a> <!-- testLStar -->
+                  <span class="method-name">testLStar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGrowingAlphabetAlphabet">
+                  </a> <!-- testGrowingAlphabetAlphabet -->
+                  <span class="method-name">testGrowingAlphabetAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInitialAlphabet">
+                  </a> <!-- testInitialAlphabet -->
+                  <span class="method-name">testInitialAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuspendAndResumeLearner">
+                  </a> <!-- testSuspendAndResumeLearner -->
+                  <span class="method-name">testSuspendAndResumeLearner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.LStarMealyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClassicLStarMealy">
+                  </a> <!-- testClassicLStarMealy -->
+                  <span class="method-name">testClassicLStarMealy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOptimizedLStarMealy">
+                  </a> <!-- testOptimizedLStarMealy -->
+                  <span class="method-name">testOptimizedLStarMealy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuspendAndResumeLearner">
+                  </a> <!-- testSuspendAndResumeLearner -->
+                  <span class="method-name">testSuspendAndResumeLearner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.LearningTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.LStarDFATest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.LStarMealyTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLStar')
+data.setCell(0, 2, 'de.learnlib.algorithms.lstar.LStarDFATest')
+data.setCell(0, 3, 351);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGrowingAlphabetAlphabet')
+data.setCell(1, 2, 'de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest')
+data.setCell(1, 3, 113);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSuspendAndResumeLearner')
+data.setCell(2, 2, 'de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest')
+data.setCell(2, 3, 75);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSuspendAndResumeLearner')
+data.setCell(3, 2, 'de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest')
+data.setCell(3, 3, 40);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testClassicLStarMealy')
+data.setCell(4, 2, 'de.learnlib.algorithms.lstar.LStarMealyTest')
+data.setCell(4, 3, 32);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSuspendAndResumeLearner')
+data.setCell(5, 2, 'de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest')
+data.setCell(5, 3, 19);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSuspendAndResumeLearner')
+data.setCell(6, 2, 'de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest')
+data.setCell(6, 3, 16);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSuspendAndResumeLearner')
+data.setCell(7, 2, 'de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest')
+data.setCell(7, 3, 13);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testOptimizedLStarMealy')
+data.setCell(8, 2, 'de.learnlib.algorithms.lstar.LStarMealyTest')
+data.setCell(8, 3, 13);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testInitialAlphabet')
+data.setCell(9, 2, 'de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest')
+data.setCell(9, 3, 12);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSuspendAndResumeLearner')
+data.setCell(10, 2, 'de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest')
+data.setCell(10, 3, 12);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGrowingAlphabetAlphabet')
+data.setCell(11, 2, 'de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest')
+data.setCell(11, 3, 5);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGrowingAlphabetAlphabet')
+data.setCell(12, 2, 'de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest')
+data.setCell(12, 3, 4);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testInitialAlphabet')
+data.setCell(13, 2, 'de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest')
+data.setCell(13, 3, 4);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGrowingAlphabetAlphabet')
+data.setCell(14, 2, 'de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest')
+data.setCell(14, 3, 3);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testInitialAlphabet')
+data.setCell(15, 2, 'de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testGrowingAlphabetAlphabet')
+data.setCell(16, 2, 'de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest')
+data.setCell(16, 3, 3);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testInitialAlphabet')
+data.setCell(17, 2, 'de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGrowingAlphabetAlphabet')
+data.setCell(18, 2, 'de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testInitialAlphabet')
+data.setCell(19, 2, 'de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testInitialAlphabet')
+data.setCell(20, 2, 'de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest')
+data.setCell(20, 3, 2);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 726 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGrowingAlphabetAlphabet</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInitialAlphabet</span>
+                <span class="method-start">233 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.LStarDFATest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLStar</span>
+                <span class="method-start">246 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">599 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSuspendAndResumeLearner</span>
+                <span class="method-start">604 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.LStarMealyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testClassicLStarMealy</span>
+                <span class="method-start">679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOptimizedLStarMealy</span>
+                <span class="method-start">712 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">726 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGrowingAlphabetAlphabet</span>
+                <span class="method-start">729 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">734 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGrowingAlphabetAlphabet</span>
+                <span class="method-start">737 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInitialAlphabet</span>
+                <span class="method-start">741 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInitialAlphabet</span>
+                <span class="method-start">746 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">749 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSuspendAndResumeLearner</span>
+                <span class="method-start">756 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">797 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSuspendAndResumeLearner</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">813 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGrowingAlphabetAlphabet</span>
+                <span class="method-start">815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInitialAlphabet</span>
+                <span class="method-start">818 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">821 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSuspendAndResumeLearner</span>
+                <span class="method-start">824 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">843 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGrowingAlphabetAlphabet</span>
+                <span class="method-start">844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInitialAlphabet</span>
+                <span class="method-start">846 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">848 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSuspendAndResumeLearner</span>
+                <span class="method-start">851 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">865 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGrowingAlphabetAlphabet</span>
+                <span class="method-start">868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInitialAlphabet</span>
+                <span class="method-start">872 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">874 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSuspendAndResumeLearner</span>
+                <span class="method-start">878 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

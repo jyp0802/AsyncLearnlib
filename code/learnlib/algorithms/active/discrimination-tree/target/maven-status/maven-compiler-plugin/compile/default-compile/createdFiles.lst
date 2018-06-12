@@ -1,0 +1,17 @@
+de\learnlib\algorithms\discriminationtree\dfa\DTLearnerDFA$BuilderDefaults.class
+de\learnlib\algorithms\discriminationtree\dfa\DTLearnerDFABuilder.class
+de\learnlib\algorithms\discriminationtree\mealy\DTLearnerMealy.class
+de\learnlib\algorithms\discriminationtree\dfa\DTLearnerDFA.class
+de\learnlib\algorithms\discriminationtree\dfa\DTLearnerDFA$1.class
+de\learnlib\algorithms\discriminationtree\hypothesis\HTransition.class
+de\learnlib\algorithms\discriminationtree\AbstractDTLearner.class
+de\learnlib\algorithms\discriminationtree\mealy\HypothesisWrapperMealy.class
+de\learnlib\algorithms\discriminationtree\hypothesis\DTLearnerHypothesis.class
+de\learnlib\algorithms\discriminationtree\mealy\DTLearnerMealyBuilder.class
+de\learnlib\algorithms\discriminationtree\hypothesis\DTLearnerHypothesis$GraphView$1.class
+de\learnlib\algorithms\discriminationtree\dfa\HypothesisWrapperDFA.class
+de\learnlib\algorithms\discriminationtree\DTLearnerState.class
+de\learnlib\algorithms\discriminationtree\mealy\DTLearnerMealy$1.class
+de\learnlib\algorithms\discriminationtree\AbstractDTLearner$BuilderDefaults.class
+de\learnlib\algorithms\discriminationtree\hypothesis\DTLearnerHypothesis$GraphView.class
+de\learnlib\algorithms\discriminationtree\hypothesis\HState.class

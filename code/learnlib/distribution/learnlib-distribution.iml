@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="learnlib-adt" />
+    <orderEntry type="module" module-name="automata-api" />
+    <orderEntry type="module" module-name="automata-core" />
+    <orderEntry type="module" module-name="automata-util" />
+    <orderEntry type="module" module-name="automata-commons-util" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="module" module-name="learnlib-dhc" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:24.0-jre" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-compat-qual:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="module" module-name="learnlib-discrimination-tree" />
+    <orderEntry type="module" module-name="learnlib-discrimination-tree-vpda" />
+    <orderEntry type="module" module-name="automata-commons-smartcollections" />
+    <orderEntry type="module" module-name="learnlib-kearns-vazirani" />
+    <orderEntry type="module" module-name="learnlib-lstar" />
+    <orderEntry type="module" module-name="learnlib-nlstar" />
+    <orderEntry type="module" module-name="learnlib-ttt" />
+    <orderEntry type="module" module-name="learnlib-ttt-vpda" />
+    <orderEntry type="module" module-name="learnlib-rpni" />
+    <orderEntry type="module" module-name="learnlib-rpni-edsm" />
+    <orderEntry type="module" module-name="learnlib-rpni-mdl" />
+    <orderEntry type="module" module-name="learnlib-api" />
+    <orderEntry type="module" module-name="learnlib-acex" />
+    <orderEntry type="module" module-name="learnlib-counterexamples" />
+    <orderEntry type="module" module-name="learnlib-settings" />
+    <orderEntry type="module" module-name="learnlib-util" />
+    <orderEntry type="module" module-name="learnlib-datastructure-dt" />
+    <orderEntry type="module" module-name="learnlib-datastructure-list" />
+    <orderEntry type="module" module-name="learnlib-datastructure-ot" />
+    <orderEntry type="module" module-name="learnlib-datastructure-pta" />
+    <orderEntry type="module" module-name="learnlib-drivers-basic" />
+    <orderEntry type="module" module-name="learnlib-mapper" />
+    <orderEntry type="module" module-name="learnlib-drivers-simulator" />
+    <orderEntry type="module" module-name="learnlib-model-checkers" />
+    <orderEntry type="module" module-name="automata-serialization-etf" />
+    <orderEntry type="module" module-name="automata-serialization-fsm" />
+    <orderEntry type="module" module-name="learnlib-bbc-oracles" />
+    <orderEntry type="module" module-name="learnlib-equivalence-oracles" />
+    <orderEntry type="module" module-name="learnlib-cache" />
+    <orderEntry type="module" module-name="automata-incremental" />
+    <orderEntry type="module" module-name="learnlib-reuse" />
+    <orderEntry type="module" module-name="learnlib-statistics" />
+    <orderEntry type="module" module-name="learnlib-membership-oracles" />
+    <orderEntry type="module" module-name="learnlib-parallelism" />
+    <orderEntry type="module" module-name="automata-brics" />
+    <orderEntry type="module" module-name="automata-serialization-aut" />
+    <orderEntry type="module" module-name="automata-serialization-core" />
+    <orderEntry type="module" module-name="automata-serialization-dot" />
+    <orderEntry type="module" module-name="automata-serialization-learnlibv2" />
+    <orderEntry type="module" module-name="automata-serialization-saf" />
+    <orderEntry type="module" module-name="automata-serialization-taf" />
+    <orderEntry type="module" module-name="automata-dot-visualizer" />
+    <orderEntry type="module" module-name="automata-jung-visualizer" />
+    <orderEntry type="library" name="Maven: net.sf.jung:jung-api:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jung:jung-algorithms:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jung:jung-graph-impl:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jung:jung-visualization:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.misberner.graphviz-awt-shapes:graphviz-awt-shapes:0.0.1" level="project" />
+  </component>
+</module>

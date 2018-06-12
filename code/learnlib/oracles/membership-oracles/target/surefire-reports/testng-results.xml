@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="179" started-at="2018-04-19T08:21:57Z" finished-at="2018-04-19T08:21:57Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="179" started-at="2018-04-19T08:21:57Z" finished-at="2018-04-19T08:21:57Z">
+      <class name="de.learnlib.oracle.membership.SimulatorOracleTest">
+        <test-method status="PASS" signature="testDFASimulatorOracle()[pri:0, instance:de.learnlib.oracle.membership.SimulatorOracleTest@6cd8737]" name="testDFASimulatorOracle" duration-ms="1" started-at="2018-04-19T17:21:57Z" finished-at="2018-04-19T17:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDFASimulatorOracle -->
+      </class> <!-- de.learnlib.oracle.membership.SimulatorOracleTest -->
+      <class name="de.learnlib.oracle.membership.SimulatorOmegaOracleTest">
+        <test-method status="PASS" signature="testDFASimulatorOmegaOracle()[pri:0, instance:de.learnlib.oracle.membership.SimulatorOmegaOracleTest@6108b2d7]" name="testDFASimulatorOmegaOracle" duration-ms="153" started-at="2018-04-19T17:21:57Z" finished-at="2018-04-19T17:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDFASimulatorOmegaOracle -->
+      </class> <!-- de.learnlib.oracle.membership.SimulatorOmegaOracleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

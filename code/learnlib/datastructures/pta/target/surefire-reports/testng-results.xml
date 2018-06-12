@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="183" started-at="2018-04-19T08:22:40Z" finished-at="2018-04-19T08:22:40Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="183" started-at="2018-04-19T08:22:40Z" finished-at="2018-04-19T08:22:40Z">
+      <class name="de.learnlib.datastructure.pta.MergedAutomatonTest">
+        <test-method status="PASS" signature="testMerge()[pri:0, instance:de.learnlib.datastructure.pta.MergedAutomatonTest@5594a1b5]" name="testMerge" duration-ms="163" started-at="2018-04-19T17:22:40Z" finished-at="2018-04-19T17:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMerge -->
+      </class> <!-- de.learnlib.datastructure.pta.MergedAutomatonTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

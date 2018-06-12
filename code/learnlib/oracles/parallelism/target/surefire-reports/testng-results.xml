@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="165" started-at="2018-04-19T08:23:07Z" finished-at="2018-04-19T08:23:07Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="165" started-at="2018-04-19T08:23:07Z" finished-at="2018-04-19T08:23:07Z">
+      <class name="de.learnlib.oracle.parallelism.DynamicParallelOracleTest">
+        <test-method status="PASS" signature="testDistinctQueries()[pri:0, instance:de.learnlib.oracle.parallelism.DynamicParallelOracleTest@6fadae5d]" name="testDistinctQueries" duration-ms="108" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDistinctQueries -->
+        <test-method status="PASS" signature="testDuplicateQueries()[pri:0, instance:de.learnlib.oracle.parallelism.DynamicParallelOracleTest@6fadae5d]" name="testDuplicateQueries" duration-ms="5" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Query was already answered]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Query was already answered
+	at de.learnlib.oracle.parallelism.DynamicParallelOracleTest$AnswerOnceQuery.answer(DynamicParallelOracleTest.java:99)
+	at de.learnlib.oracle.parallelism.DynamicParallelOracleTest$AnswerOnceQuery.answer(DynamicParallelOracleTest.java:91)
+	at de.learnlib.oracle.parallelism.DynamicParallelOracleTest$NullOracle.processQueries(DynamicParallelOracleTest.java:86)
+	at de.learnlib.oracle.parallelism.AbstractQueriesJob.run(AbstractQueriesJob.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuplicateQueries -->
+      </class> <!-- de.learnlib.oracle.parallelism.DynamicParallelOracleTest -->
+      <class name="de.learnlib.oracle.parallelism.StaticParallelOracleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.oracle.parallelism.StaticParallelOracleTest@17f6480]" name="setUp" is-config="true" duration-ms="4" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFullLoad()[pri:0, instance:de.learnlib.oracle.parallelism.StaticParallelOracleTest@17f6480]" name="testFullLoad" duration-ms="15" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullLoad -->
+        <test-method status="PASS" signature="testLessThanSixBatches()[pri:0, instance:de.learnlib.oracle.parallelism.StaticParallelOracleTest@17f6480]" name="testLessThanSixBatches" duration-ms="1" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLessThanSixBatches -->
+        <test-method status="PASS" signature="testLessThanMin()[pri:0, instance:de.learnlib.oracle.parallelism.StaticParallelOracleTest@17f6480]" name="testLessThanMin" duration-ms="0" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLessThanMin -->
+        <test-method status="PASS" signature="testLessThanTwoBatches()[pri:0, instance:de.learnlib.oracle.parallelism.StaticParallelOracleTest@17f6480]" name="testLessThanTwoBatches" duration-ms="0" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLessThanTwoBatches -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:de.learnlib.oracle.parallelism.StaticParallelOracleTest@17f6480]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMin()[pri:0, instance:de.learnlib.oracle.parallelism.StaticParallelOracleTest@17f6480]" name="testMin" duration-ms="0" started-at="2018-04-19T17:23:07Z" finished-at="2018-04-19T17:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMin -->
+      </class> <!-- de.learnlib.oracle.parallelism.StaticParallelOracleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

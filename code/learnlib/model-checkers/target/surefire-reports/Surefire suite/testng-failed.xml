@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="de.learnlib.modelchecking.modelchecker.LTSminLTLIOTest">
+        <methods>
+          <include name="testSetMinimumUnfolds"/>
+          <include name="testSkipOutputs"/>
+          <include name="testSetMinimumUnfoldsExcept"/>
+          <include name="setUp"/>
+          <include name="testFindCounterExample"/>
+          <include name="testComputeUnfoldsExcept"/>
+          <include name="testSetMultiplier"/>
+          <include name="testComputeUnfolds"/>
+          <include name="setupBeforeClass"/>
+          <include name="testSetMultiplierExcept"/>
+        </methods>
+      </class> <!-- de.learnlib.modelchecking.modelchecker.LTSminLTLIOTest -->
+      <class name="de.learnlib.modelchecking.modelchecker.LTSminLTLDFATest">
+        <methods>
+          <include name="testSetMinimumUnfolds"/>
+          <include name="testEmptyLanguage"/>
+          <include name="testPrefixClosed"/>
+          <include name="testSetMinimumUnfoldsExcept"/>
+          <include name="setUp"/>
+          <include name="testFindCounterExample"/>
+          <include name="testComputeUnfoldsExcept"/>
+          <include name="testSetMultiplier"/>
+          <include name="testComputeUnfolds"/>
+          <include name="setupBeforeClass"/>
+          <include name="testSetMultiplierExcept"/>
+        </methods>
+      </class> <!-- de.learnlib.modelchecking.modelchecker.LTSminLTLDFATest -->
+      <class name="de.learnlib.modelchecking.modelchecker.LTSminLTLAlternatingTest">
+        <methods>
+          <include name="testSetMinimumUnfolds"/>
+          <include name="testSkipOutputs"/>
+          <include name="testSetMinimumUnfoldsExcept"/>
+          <include name="setUp"/>
+          <include name="testFindCounterExample"/>
+          <include name="testComputeUnfoldsExcept"/>
+          <include name="testSetMultiplier"/>
+          <include name="testComputeUnfolds"/>
+          <include name="setupBeforeClass"/>
+          <include name="testSetMultiplierExcept"/>
+        </methods>
+      </class> <!-- de.learnlib.modelchecking.modelchecker.LTSminLTLAlternatingTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

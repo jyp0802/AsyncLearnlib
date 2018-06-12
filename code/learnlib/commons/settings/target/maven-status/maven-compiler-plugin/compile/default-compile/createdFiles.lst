@@ -1,0 +1,9 @@
+de\learnlib\setting\LearnLibSettings.class
+de\learnlib\setting\sources\LearnLibLocalPropertiesSource.class
+de\learnlib\setting\sources\LearnLibSystemPropertiesSource.class
+de\learnlib\setting\LearnLibProperty.class
+de\learnlib\setting\sources\LearnLibPropertiesAutomataLibSettingsSource.class
+META-INF\services\net.automatalib.AutomataLibSettingsSource
+de\learnlib\setting\sources\LearnLibPropertiesSource.class
+META-INF\services\de.learnlib.api.setting.LearnLibSettingsSource
+de\learnlib\setting\sources\LearnLibLocalPropertiesAutomataLibSettingsSource.class

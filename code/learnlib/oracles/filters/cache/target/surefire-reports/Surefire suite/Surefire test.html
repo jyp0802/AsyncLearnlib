@@ -1,0 +1,429 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>70/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 19 17:23:01 KST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (238 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFADAGCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.dfa.DFADAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULDAGCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.sul.SULDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFAHashCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.dfa.DFAHashCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULTreeCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.sul.SULTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFATreeCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.dfa.DFATreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.SymbolQueryCacheTest.testCacheConsistency()'><b>testCacheConsistency</b><br>Test class: de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFADAGCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.dfa.DFADAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULDAGCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.sul.SULDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFAHashCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.dfa.DFAHashCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULTreeCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.sul.SULTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFATreeCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.dfa.DFATreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.SymbolQueryCacheTest.testFirstDuplicate()'><b>testFirstDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFADAGCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.dfa.DFADAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULDAGCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.sul.SULDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFAHashCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.dfa.DFAHashCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULTreeCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.sul.SULTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFATreeCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.dfa.DFATreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.SymbolQueryCacheTest.testFirstQuery()'><b>testFirstQuery</b><br>Test class: de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFADAGCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.dfa.DFADAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULDAGCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.sul.SULDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFAHashCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.dfa.DFAHashCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULTreeCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.sul.SULTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFATreeCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.dfa.DFATreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.SymbolQueryCacheTest.testNoQueriesReceived()'><b>testNoQueriesReceived</b><br>Test class: de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFADAGCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.dfa.DFADAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULDAGCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.sul.SULDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFAHashCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.dfa.DFAHashCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULTreeCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.sul.SULTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFATreeCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.dfa.DFATreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.SymbolQueryCacheTest.testOneNewQuery()'><b>testOneNewQuery</b><br>Test class: de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFADAGCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.dfa.DFADAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULDAGCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.sul.SULDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFAHashCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.dfa.DFAHashCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULTreeCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.sul.SULTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFATreeCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.dfa.DFATreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.SymbolQueryCacheTest.testPrefix()'><b>testPrefix</b><br>Test class: de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFADAGCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.dfa.DFADAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULDAGCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.sul.SULDAGCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFAHashCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.dfa.DFAHashCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.sul.SULTreeCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.sul.SULTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.dfa.DFATreeCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.dfa.DFATreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684</td></tr>
+<tr>
+<td title='de.learnlib.filter.cache.mealy.SymbolQueryCacheTest.testTwoQueriesOneDuplicate()'><b>testTwoQueriesOneDuplicate</b><br>Test class: de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2</td></tr>
+</table><p>
+</body>
+</html>

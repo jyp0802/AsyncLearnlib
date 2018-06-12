@@ -1,0 +1,5 @@
+de\learnlib\algorithms\adt\it\ADTIT.class
+de\learnlib\algorithms\adt\it\MQ2SQWrapper.class
+de\learnlib\algorithms\adt\automaton\ADTHypothesisTest.class
+de\learnlib\algorithms\adt\learner\ADTResumableLearnerTest.class
+de\learnlib\algorithms\adt\learner\ADTGrowingAlphabetTest.class

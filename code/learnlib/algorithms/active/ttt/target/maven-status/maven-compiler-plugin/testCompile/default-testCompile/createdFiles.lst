@@ -1,0 +1,7 @@
+de\learnlib\algorithms\ttt\mealy\it\TTTLearnerMealyIT.class
+de\learnlib\algorithms\ttt\dfa\it\PrefixTTTLearnerDFAIT.class
+de\learnlib\algorithms\ttt\dfa\it\TTTLearnerDFAIT.class
+de\learnlib\algorithms\ttt\TTTLearnerMealyResumableLearnerTest.class
+de\learnlib\algorithms\ttt\TTTDFAGrowingAlphabetTest.class
+de\learnlib\algorithms\ttt\TTTLearnerMealyGrowingAlphabetTest.class
+de\learnlib\algorithms\ttt\TTTLearnerDFAResumableLearnerTest.class

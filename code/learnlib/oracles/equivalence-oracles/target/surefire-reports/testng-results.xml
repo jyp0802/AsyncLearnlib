@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="207" started-at="2018-04-19T08:22:00Z" finished-at="2018-04-19T08:22:00Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="207" started-at="2018-04-19T08:22:00Z" finished-at="2018-04-19T08:22:00Z">
+      <class name="de.learnlib.oracle.equivalence.EmptyAutomatonOracleTest">
+        <test-method status="PASS" signature="testEmptyDFA()[pri:0, instance:de.learnlib.oracle.equivalence.EmptyAutomatonOracleTest@7a0ac6e3]" name="testEmptyDFA" duration-ms="169" started-at="2018-04-19T17:22:00Z" finished-at="2018-04-19T17:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyDFA -->
+        <test-method status="PASS" signature="testEmptyMealy()[pri:0, instance:de.learnlib.oracle.equivalence.EmptyAutomatonOracleTest@7a0ac6e3]" name="testEmptyMealy" duration-ms="17" started-at="2018-04-19T17:22:00Z" finished-at="2018-04-19T17:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyMealy -->
+      </class> <!-- de.learnlib.oracle.equivalence.EmptyAutomatonOracleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

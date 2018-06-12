@@ -1,0 +1,15 @@
+de\learnlib\filter\cache\sul\AbstractSULCacheTest.class
+de\learnlib\filter\cache\mealy\SymbolQueryCacheTest.class
+de\learnlib\filter\cache\dfa\DFAHashCacheTest.class
+de\learnlib\filter\cache\mealy\MealyTreeCacheTest.class
+de\learnlib\filter\cache\dfa\AbstractDFACacheTest.class
+de\learnlib\filter\cache\dfa\DFADAGCacheTest.class
+de\learnlib\filter\cache\dfa\DFATreeCacheTest.class
+de\learnlib\filter\cache\sul\SULDAGCacheTest.class
+de\learnlib\filter\cache\mealy\MealyDAGMapperCacheTest.class
+de\learnlib\filter\cache\CacheTestUtils.class
+de\learnlib\filter\cache\mealy\MealyDAGCacheTest.class
+de\learnlib\filter\cache\AbstractCacheTest.class
+de\learnlib\filter\cache\mealy\MealyTreeMapperCacheTest.class
+de\learnlib\filter\cache\mealy\AbstractMealyCacheTest.class
+de\learnlib\filter\cache\sul\SULTreeCacheTest.class

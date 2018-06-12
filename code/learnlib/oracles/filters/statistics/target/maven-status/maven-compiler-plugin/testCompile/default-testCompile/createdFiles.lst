@@ -1,0 +1,6 @@
+de\learnlib\filter\statistic\queries\UnanswerableQuery.class
+de\learnlib\filter\statistic\queries\AbstractTestQueries.class
+de\learnlib\filter\statistic\CounterOracleTest.class
+de\learnlib\filter\statistic\oracles\NoopOracle.class
+de\learnlib\filter\statistic\oracles\ConstantOutputOracle.class
+de\learnlib\filter\statistic\queries\NoopQuery.class

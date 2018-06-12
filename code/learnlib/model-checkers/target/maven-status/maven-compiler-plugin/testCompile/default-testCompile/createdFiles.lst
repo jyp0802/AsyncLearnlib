@@ -1,0 +1,6 @@
+de\learnlib\modelchecking\modelchecker\AbstractLTSminLTLTest.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLIOTest.class
+de\learnlib\modelchecking\modelchecker\AbstractLTSminLTLMealyTest.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLAlternatingTest.class
+de\learnlib\modelchecking\modelchecker\AbstractUnfoldingModelCheckerTest.class
+de\learnlib\modelchecking\modelchecker\LTSminLTLDFATest.class

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="499" started-at="2018-04-19T08:22:36Z" finished-at="2018-04-19T08:22:36Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="499" started-at="2018-04-19T08:22:36Z" finished-at="2018-04-19T08:22:36Z">
+      <class name="de.learnlib.algorithms.ttt.TTTDFAGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.ttt.TTTDFAGrowingAlphabetTest@6276ae34]" name="setup" is-config="true" duration-ms="122" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.ttt.TTTDFAGrowingAlphabetTest@6276ae34]" name="testGrowingAlphabetAlphabet" duration-ms="106" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.ttt.TTTDFAGrowingAlphabetTest@6276ae34]" name="testInitialAlphabet" duration-ms="13" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.ttt.TTTDFAGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.ttt.TTTLearnerDFAResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.ttt.TTTLearnerDFAResumableLearnerTest@7946e1f4]" name="setup" is-config="true" duration-ms="7" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.ttt.TTTLearnerDFAResumableLearnerTest@7946e1f4]" name="testSuspendAndResumeLearner" duration-ms="145" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.ttt.TTTLearnerDFAResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.ttt.TTTLearnerMealyGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.ttt.TTTLearnerMealyGrowingAlphabetTest@3c09711b]" name="setup" is-config="true" duration-ms="15" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.ttt.TTTLearnerMealyGrowingAlphabetTest@3c09711b]" name="testGrowingAlphabetAlphabet" duration-ms="19" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.ttt.TTTLearnerMealyGrowingAlphabetTest@3c09711b]" name="testInitialAlphabet" duration-ms="7" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.ttt.TTTLearnerMealyGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.ttt.TTTLearnerMealyResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.ttt.TTTLearnerMealyResumableLearnerTest@5cc7c2a6]" name="setup" is-config="true" duration-ms="3" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.ttt.TTTLearnerMealyResumableLearnerTest@5cc7c2a6]" name="testSuspendAndResumeLearner" duration-ms="37" started-at="2018-04-19T17:22:36Z" finished-at="2018-04-19T17:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.ttt.TTTLearnerMealyResumableLearnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

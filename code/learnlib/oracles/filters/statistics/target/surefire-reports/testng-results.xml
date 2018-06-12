@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="136" started-at="2018-04-19T08:21:49Z" finished-at="2018-04-19T08:21:50Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="136" started-at="2018-04-19T08:21:49Z" finished-at="2018-04-19T08:21:50Z">
+      <class name="de.learnlib.filter.statistic.CounterOracleTest">
+        <test-method status="PASS" signature="testGetName()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testGetName" duration-ms="18" started-at="2018-04-19T17:21:50Z" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetName -->
+        <test-method status="PASS" signature="testInvariants()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testInvariants" is-config="true" duration-ms="1" started-at="2018-04-19T17:21:50Z" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvariants -->
+        <test-method status="PASS" signature="testInvariants()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testInvariants" is-config="true" duration-ms="0" started-at="2018-04-19T17:21:50Z" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvariants -->
+        <test-method status="PASS" signature="testInitialState()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testInitialState" duration-ms="0" started-at="2018-04-19T17:21:50Z" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialState -->
+        <test-method status="PASS" signature="testFirstQueryBatch()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testFirstQueryBatch" duration-ms="91" started-at="2018-04-19T17:21:50Z" depends-on-methods="de.learnlib.filter.statistic.CounterOracleTest.testInitialState" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQueryBatch -->
+        <test-method status="PASS" signature="testInvariants()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testInvariants" is-config="true" duration-ms="0" started-at="2018-04-19T17:21:50Z" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvariants -->
+        <test-method status="PASS" signature="testEmptyQueryBatch()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testEmptyQueryBatch" duration-ms="0" started-at="2018-04-19T17:21:50Z" depends-on-methods="de.learnlib.filter.statistic.CounterOracleTest.testFirstQueryBatch" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyQueryBatch -->
+        <test-method status="PASS" signature="testInvariants()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testInvariants" is-config="true" duration-ms="0" started-at="2018-04-19T17:21:50Z" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvariants -->
+        <test-method status="PASS" signature="testSecondQueryBatch()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testSecondQueryBatch" duration-ms="0" started-at="2018-04-19T17:21:50Z" depends-on-methods="de.learnlib.filter.statistic.CounterOracleTest.testEmptyQueryBatch" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecondQueryBatch -->
+        <test-method status="PASS" signature="testInvariants()[pri:0, instance:de.learnlib.filter.statistic.CounterOracleTest@7f63425a]" name="testInvariants" is-config="true" duration-ms="1" started-at="2018-04-19T17:21:50Z" finished-at="2018-04-19T17:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvariants -->
+      </class> <!-- de.learnlib.filter.statistic.CounterOracleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

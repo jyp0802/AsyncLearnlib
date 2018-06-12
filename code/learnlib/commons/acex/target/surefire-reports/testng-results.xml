@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="64" started-at="2018-04-19T08:21:42Z" finished-at="2018-04-19T08:21:42Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="64" started-at="2018-04-19T08:21:42Z" finished-at="2018-04-19T08:21:42Z">
+      <class name="de.learnlib.acex.analyzers.AnalyzersTest">
+        <test-method status="PASS" signature="testOne0(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne0" duration-ms="13" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BinarySearchFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne0 -->
+        <test-method status="PASS" signature="testOne0(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne0" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LinearFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne0 -->
+        <test-method status="PASS" signature="testOne0(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne0" duration-ms="1" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExponentialFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne0 -->
+        <test-method status="PASS" signature="testOne0(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne0" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BinarySearchBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne0 -->
+        <test-method status="PASS" signature="testOne0(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne0" duration-ms="1" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LinearBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne0 -->
+        <test-method status="PASS" signature="testOne0(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne0" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExponentialBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne0 -->
+        <test-method status="PASS" signature="testOne1(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne1" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BinarySearchFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne1 -->
+        <test-method status="PASS" signature="testOne1(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne1" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExponentialFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne1 -->
+        <test-method status="PASS" signature="testOne1(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne1" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LinearFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne1 -->
+        <test-method status="PASS" signature="testOne1(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne1" duration-ms="1" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BinarySearchBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne1 -->
+        <test-method status="PASS" signature="testOne1(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne1" duration-ms="1" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExponentialBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne1 -->
+        <test-method status="PASS" signature="testOne1(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testOne1" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LinearBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne1 -->
+        <test-method status="PASS" signature="testRandom(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testRandom" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BinarySearchFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandom -->
+        <test-method status="PASS" signature="testRandom(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testRandom" duration-ms="1" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExponentialFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandom -->
+        <test-method status="PASS" signature="testRandom(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testRandom" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LinearFwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandom -->
+        <test-method status="PASS" signature="testRandom(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testRandom" duration-ms="1" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ExponentialBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandom -->
+        <test-method status="PASS" signature="testRandom(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testRandom" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LinearBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandom -->
+        <test-method status="PASS" signature="testRandom(de.learnlib.acex.analyzers.AbstractNamedAcexAnalyzer)[pri:0, instance:de.learnlib.acex.analyzers.AnalyzersTest@1134affc]" name="testRandom" duration-ms="0" started-at="2018-04-19T17:21:42Z" data-provider="analyzers" finished-at="2018-04-19T17:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BinarySearchBwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandom -->
+      </class> <!-- de.learnlib.acex.analyzers.AnalyzersTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

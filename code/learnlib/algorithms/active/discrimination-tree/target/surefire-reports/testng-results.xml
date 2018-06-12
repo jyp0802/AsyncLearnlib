@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="410" started-at="2018-04-19T08:22:17Z" finished-at="2018-04-19T08:22:17Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="410" started-at="2018-04-19T08:22:17Z" finished-at="2018-04-19T08:22:17Z">
+      <class name="de.learnlib.algorithms.discriminationtree.DTLearnerMealyResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerMealyResumableLearnerTest@337d0578]" name="setup" is-config="true" duration-ms="6" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerMealyResumableLearnerTest@337d0578]" name="testSuspendAndResumeLearner" duration-ms="13" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.discriminationtree.DTLearnerMealyResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.discriminationtree.DTLearnerDFAGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerDFAGrowingAlphabetTest@69d9c55]" name="setup" is-config="true" duration-ms="122" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerDFAGrowingAlphabetTest@69d9c55]" name="testGrowingAlphabetAlphabet" duration-ms="115" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerDFAGrowingAlphabetTest@69d9c55]" name="testInitialAlphabet" duration-ms="12" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.discriminationtree.DTLearnerDFAGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.discriminationtree.DTLearnerMealyGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerMealyGrowingAlphabetTest@7ca48474]" name="setup" is-config="true" duration-ms="14" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerMealyGrowingAlphabetTest@7ca48474]" name="testGrowingAlphabetAlphabet" duration-ms="12" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerMealyGrowingAlphabetTest@7ca48474]" name="testInitialAlphabet" duration-ms="6" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.discriminationtree.DTLearnerMealyGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.discriminationtree.DTLearnerDFAResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerDFAResumableLearnerTest@13a57a3b]" name="setup" is-config="true" duration-ms="7" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.discriminationtree.DTLearnerDFAResumableLearnerTest@13a57a3b]" name="testSuspendAndResumeLearner" duration-ms="77" started-at="2018-04-19T17:22:17Z" finished-at="2018-04-19T17:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.discriminationtree.DTLearnerDFAResumableLearnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

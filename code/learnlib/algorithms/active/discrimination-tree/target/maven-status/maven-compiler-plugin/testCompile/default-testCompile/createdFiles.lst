@@ -1,0 +1,6 @@
+de\learnlib\algorithms\discriminationtree\DTLearnerMealyIT.class
+de\learnlib\algorithms\discriminationtree\DTLearnerDFAIT.class
+de\learnlib\algorithms\discriminationtree\DTLearnerMealyResumableLearnerTest.class
+de\learnlib\algorithms\discriminationtree\DTLearnerDFAGrowingAlphabetTest.class
+de\learnlib\algorithms\discriminationtree\DTLearnerDFAResumableLearnerTest.class
+de\learnlib\algorithms\discriminationtree\DTLearnerMealyGrowingAlphabetTest.class

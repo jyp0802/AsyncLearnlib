@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="70" passed="70">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="238" started-at="2018-04-19T08:23:01Z" finished-at="2018-04-19T08:23:01Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="238" started-at="2018-04-19T08:23:01Z" finished-at="2018-04-19T08:23:01Z">
+      <class name="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="testNoQueriesReceived" duration-ms="0" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="testFirstQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="testTwoQueriesOneDuplicate" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="testOneNewQuery" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest@5f282abb]" name="testCacheConsistency" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest -->
+      <class name="de.learnlib.filter.cache.dfa.DFAHashCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="setup" is-config="true" duration-ms="2" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="testNoQueriesReceived" duration-ms="0" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="testFirstQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="testTwoQueriesOneDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="testOneNewQuery" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.dfa.DFAHashCacheTest@394e1a0f]" name="testCacheConsistency" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.dfa.DFAHashCacheTest -->
+      <class name="de.learnlib.filter.cache.mealy.MealyTreeCacheTest">
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="testNoQueriesReceived" duration-ms="2" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="testFirstQuery" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="testTwoQueriesOneDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="testOneNewQuery" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeCacheTest@167fdd33]" name="testCacheConsistency" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.mealy.MealyTreeCacheTest -->
+      <class name="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="setup" is-config="true" duration-ms="1" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="testNoQueriesReceived" duration-ms="0" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="testFirstQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="testTwoQueriesOneDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="testOneNewQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest@1e965684]" name="testCacheConsistency" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest -->
+      <class name="de.learnlib.filter.cache.sul.SULDAGCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="setup" is-config="true" duration-ms="5" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="testNoQueriesReceived" duration-ms="1" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="testFirstQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="testFirstDuplicate" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="testTwoQueriesOneDuplicate" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="testOneNewQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.sul.SULDAGCacheTest@53f65459]" name="testCacheConsistency" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.sul.SULDAGCacheTest -->
+      <class name="de.learnlib.filter.cache.dfa.DFATreeCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="setup" is-config="true" duration-ms="2" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="testNoQueriesReceived" duration-ms="0" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="testFirstQuery" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="testTwoQueriesOneDuplicate" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="testOneNewQuery" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.dfa.DFATreeCacheTest@27a5f880]" name="testCacheConsistency" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.dfa.DFATreeCacheTest -->
+      <class name="de.learnlib.filter.cache.mealy.MealyDAGCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="setup" is-config="true" duration-ms="7" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="testNoQueriesReceived" duration-ms="0" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="testFirstQuery" duration-ms="4" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="testTwoQueriesOneDuplicate" duration-ms="2" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="testOneNewQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.mealy.MealyDAGCacheTest@1d29cf23]" name="testCacheConsistency" duration-ms="4" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.mealy.MealyDAGCacheTest -->
+      <class name="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="setup" is-config="true" duration-ms="15" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="testNoQueriesReceived" duration-ms="1" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="testFirstQuery" duration-ms="2" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="testTwoQueriesOneDuplicate" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="testOneNewQuery" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="testCacheConsistency" duration-ms="8" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.mealy.SymbolQueryCacheTest@4d95d2a2]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+      </class> <!-- de.learnlib.filter.cache.mealy.SymbolQueryCacheTest -->
+      <class name="de.learnlib.filter.cache.sul.SULTreeCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="setup" is-config="true" duration-ms="3" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="testNoQueriesReceived" duration-ms="2" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="testFirstQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="testTwoQueriesOneDuplicate" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="testOneNewQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.sul.SULTreeCacheTest@3b088d51]" name="testCacheConsistency" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.sul.SULTreeCacheTest -->
+      <class name="de.learnlib.filter.cache.dfa.DFADAGCacheTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="setup" is-config="true" duration-ms="16" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testNoQueriesReceived()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="testNoQueriesReceived" duration-ms="37" started-at="2018-04-19T17:23:01Z" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoQueriesReceived -->
+        <test-method status="PASS" signature="testFirstQuery()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="testFirstQuery" duration-ms="23" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testNoQueriesReceived" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstQuery -->
+        <test-method status="PASS" signature="testFirstDuplicate()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="testFirstDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstDuplicate -->
+        <test-method status="PASS" signature="testTwoQueriesOneDuplicate()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="testTwoQueriesOneDuplicate" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testFirstDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoQueriesOneDuplicate -->
+        <test-method status="PASS" signature="testOneNewQuery()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="testOneNewQuery" duration-ms="1" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testTwoQueriesOneDuplicate" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneNewQuery -->
+        <test-method status="PASS" signature="testPrefix()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="testPrefix" duration-ms="0" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testOneNewQuery" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrefix -->
+        <test-method status="PASS" signature="testCacheConsistency()[pri:0, instance:de.learnlib.filter.cache.dfa.DFADAGCacheTest@396f6598]" name="testCacheConsistency" duration-ms="5" started-at="2018-04-19T17:23:01Z" depends-on-methods="de.learnlib.filter.cache.AbstractCacheTest.testPrefix" finished-at="2018-04-19T17:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCacheConsistency -->
+      </class> <!-- de.learnlib.filter.cache.dfa.DFADAGCacheTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,519 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 19 17:22:55 KST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1513 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest.testAddWord()'><b>testAddWord</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest.testAddWord()'><b>testAddWord</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest.testAddWord()'><b>testAddWord</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest.testAddWord()'><b>testAddWord</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest.testAddWord()'><b>testAddWord</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest.testAddWord()'><b>testAddWord</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.CExFirstBBOracleTest.testAmount()'><b>testAmount</b><br>Test class: de.learnlib.oracle.blackbox.CExFirstBBOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest.testAmount()'><b>testAmount</b><br>Test class: de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.CExFirstBBOracleTest.testCache()'><b>testCache</b><br>Test class: de.learnlib.oracle.blackbox.CExFirstBBOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest.testCache()'><b>testCache</b><br>Test class: de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest.testDisproveCached()'><b>testDisproveCached</b><br>Test class: de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest.testDisproveUncached()'><b>testDisproveUncached</b><br>Test class: de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.CExFirstBBOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.blackbox.CExFirstBBOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.CExFirstBBOracleTest@3a82f6ef</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest.testFindCounterExample()'><b>testFindCounterExample</b><br>Test class: de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.DisproveFirstBBOracleTest@100fc185</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest.testFindCounterExampleCached()'><b>testFindCounterExampleCached</b><br>Test class: de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11</td></tr>
+<tr>
+<td title='de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest.testFindCounterExampleUncached()'><b>testFindCounterExampleUncached</b><br>Test class: de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.blackbox.ModelCheckingBBPropertyTest@643b1d11</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest.testGetMaxWords()'><b>testGetMaxWords</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest.testGetMaxWords()'><b>testGetMaxWords</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest.testGetMaxWords()'><b>testGetMaxWords</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest.testGetMaxWords()'><b>testGetMaxWords</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest.testGetMaxWords()'><b>testGetMaxWords</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest.testGetMaxWords()'><b>testGetMaxWords</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest.testNextInput()'><b>testNextInput</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest.testNextInput()'><b>testNextInput</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest.testNextInput()'><b>testNextInput</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest.testNextInput()'><b>testNextInput</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest.testNextInput()'><b>testNextInput</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest.testNextInput()'><b>testNextInput</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest</td>
+<td></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest.testPre()'><b>testPre</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest</td>
+<td><div><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1690101810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1690101810'><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$DFABFEmptinessOracleTest@36d4b5c</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest.testPre()'><b>testPre</b><br>Test class: de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest</td>
+<td><div><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1517640897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1517640897'><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractBreadthFirstEmptinessOracleTest$MealyBFEmptinessOracleTest@2ef5e5e3</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest.testPre()'><b>testPre</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest</td>
+<td><div><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace941836856", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace941836856'><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$DFALassoDFAEmptinessOracleTest@51efea79</td></tr>
+<tr>
+<td title='de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest.testPre()'><b>testPre</b><br>Test class: de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest</td>
+<td><div><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace240630125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace240630125'><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>de.learnlib.oracle.emptiness.AbstractLassoAutomatonEmptinessTest$MealyLassoMealyEmptinessOracleTest@6d00a15d</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest.testPre()'><b>testPre</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest</td>
+<td><div><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace124734309", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace124734309'><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$DFABreadthFirstInclusionOracleTest@d2cc05a</td></tr>
+<tr>
+<td title='de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest.testPre()'><b>testPre</b><br>Test class: de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest</td>
+<td><div><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2131597042", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2131597042'><pre>java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at de.learnlib.oracle.AbstractBreadthFirstOracle.nextInput(AbstractBreadthFirstOracle.java:80)
+	at de.learnlib.oracle.AbstractBreadthFirstOracleTest.testPre(AbstractBreadthFirstOracleTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+</pre></div></td>
+<td>0</td>
+<td>de.learnlib.oracle.inclusion.AbstractBreadthFirstInclusionOracleTest$MealyBreadthFirstInclusionOracleTest@5034c75a</td></tr>
+</table><p>
+</body>
+</html>

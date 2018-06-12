@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources-template" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources-template" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="learnlib-adt" scope="TEST" />
+    <orderEntry type="module" module-name="automata-api" scope="TEST" />
+    <orderEntry type="module" module-name="automata-core" scope="TEST" />
+    <orderEntry type="module" module-name="automata-util" scope="TEST" />
+    <orderEntry type="module" module-name="automata-commons-util" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="module" module-name="learnlib-dhc" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.guava:guava:24.0-jre" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.checkerframework:checker-compat-qual:2.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="module" module-name="learnlib-discrimination-tree" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-discrimination-tree-vpda" scope="TEST" />
+    <orderEntry type="module" module-name="automata-commons-smartcollections" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-kearns-vazirani" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-lstar" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-nlstar" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-ttt" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-ttt-vpda" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-rpni" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-rpni-edsm" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-rpni-mdl" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-api" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-acex" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-counterexamples" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-settings" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-util" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-datastructure-dt" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-datastructure-list" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-datastructure-ot" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-datastructure-pta" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-drivers-basic" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-mapper" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-drivers-simulator" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-model-checkers" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-etf" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-fsm" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-bbc-oracles" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-equivalence-oracles" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-cache" scope="TEST" />
+    <orderEntry type="module" module-name="automata-incremental" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-reuse" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-statistics" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-membership-oracles" scope="TEST" />
+    <orderEntry type="module" module-name="learnlib-parallelism" scope="TEST" />
+    <orderEntry type="module" module-name="automata-brics" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-aut" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-core" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-dot" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-learnlibv2" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-saf" scope="TEST" />
+    <orderEntry type="module" module-name="automata-serialization-taf" scope="TEST" />
+    <orderEntry type="module" module-name="automata-dot-visualizer" scope="TEST" />
+    <orderEntry type="module" module-name="automata-jung-visualizer" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sf.jung:jung-api:2.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sf.jung:jung-algorithms:2.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sf.jung:jung-graph-impl:2.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sf.jung:jung-visualization:2.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.misberner.graphviz-awt-shapes:graphviz-awt-shapes:0.0.1" level="project" />
+  </component>
+</module>

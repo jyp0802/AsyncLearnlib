@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="150" started-at="2018-04-19T08:22:25Z" finished-at="2018-04-19T08:22:25Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="150" started-at="2018-04-19T08:22:25Z" finished-at="2018-04-19T08:22:25Z">
+      <class name="de.learnlib.datastructures.writer.SuffixASCIIWriterTest">
+        <test-method status="PASS" signature="testDelimiterInNames()[pri:0, instance:de.learnlib.datastructures.writer.SuffixASCIIWriterTest@1d251891]" name="testDelimiterInNames" duration-ms="112" started-at="2018-04-19T17:22:25Z" finished-at="2018-04-19T17:22:25Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Symbol 'A,' must not contain delimiters ',' or ';']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Symbol 'A,' must not contain delimiters ',' or ';'
+	at de.learnlib.datastructure.observationtable.writer.SuffixASCIIWriter$1.apply(SuffixASCIIWriter.java:70)
+	at de.learnlib.datastructure.observationtable.writer.SuffixASCIIWriter$1.apply(SuffixASCIIWriter.java:46)
+	at de.learnlib.datastructure.observationtable.writer.AbstractObservationTableWriter.wordToString(AbstractObservationTableWriter.java:54)
+	at de.learnlib.datastructure.observationtable.writer.SuffixASCIIWriter.write(SuffixASCIIWriter.java:100)
+	at de.learnlib.datastructure.observationtable.writer.ObservationTableWriter.write(ObservationTableWriter.java:44)
+	at de.learnlib.datastructure.observationtable.OTUtils.toString(OTUtils.java:54)
+	at de.learnlib.datastructures.writer.SuffixASCIIWriterTest.testDelimiterInNames(SuffixASCIIWriterTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelimiterInNames -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:de.learnlib.datastructures.writer.SuffixASCIIWriterTest@1d251891]" name="testRead" duration-ms="17" started-at="2018-04-19T17:22:25Z" finished-at="2018-04-19T17:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="testWrite()[pri:0, instance:de.learnlib.datastructures.writer.SuffixASCIIWriterTest@1d251891]" name="testWrite" duration-ms="0" started-at="2018-04-19T17:22:25Z" finished-at="2018-04-19T17:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite -->
+      </class> <!-- de.learnlib.datastructures.writer.SuffixASCIIWriterTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

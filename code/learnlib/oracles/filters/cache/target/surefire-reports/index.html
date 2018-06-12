@@ -1,0 +1,1925 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">70 methods,   70 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFATreeCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULDAGCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFAHashCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULTreeCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFADAGCacheTest" hash-for-method="testCacheConsistency">testCacheConsistency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFATreeCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULDAGCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFAHashCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFADAGCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULTreeCacheTest" hash-for-method="testFirstDuplicate">testFirstDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFADAGCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFAHashCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULDAGCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULTreeCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFATreeCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeCacheTest" hash-for-method="testFirstQuery">testFirstQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFATreeCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULDAGCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFAHashCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULTreeCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFADAGCacheTest" hash-for-method="testNoQueriesReceived">testNoQueriesReceived</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFAHashCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFATreeCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFADAGCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULDAGCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULTreeCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest" hash-for-method="testOneNewQuery">testOneNewQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULTreeCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFAHashCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFADAGCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFATreeCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULDAGCacheTest" hash-for-method="testPrefix">testPrefix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULDAGCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFATreeCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyTreeCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFADAGCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.dfa.DFAHashCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.MealyDAGCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.sul.SULTreeCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="de.learnlib.filter.cache.mealy.SymbolQueryCacheTest" hash-for-method="testTwoQueriesOneDuplicate">testTwoQueriesOneDuplicate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCacheConsistency">
+                  </a> <!-- testCacheConsistency -->
+                  <span class="method-name">testCacheConsistency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstDuplicate">
+                  </a> <!-- testFirstDuplicate -->
+                  <span class="method-name">testFirstDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFirstQuery">
+                  </a> <!-- testFirstQuery -->
+                  <span class="method-name">testFirstQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoQueriesReceived">
+                  </a> <!-- testNoQueriesReceived -->
+                  <span class="method-name">testNoQueriesReceived</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOneNewQuery">
+                  </a> <!-- testOneNewQuery -->
+                  <span class="method-name">testOneNewQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrefix">
+                  </a> <!-- testPrefix -->
+                  <span class="method-name">testPrefix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwoQueriesOneDuplicate">
+                  </a> <!-- testTwoQueriesOneDuplicate -->
+                  <span class="method-name">testTwoQueriesOneDuplicate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.AbstractCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.dfa.AbstractDFACacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.dfa.DFADAGCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.dfa.DFAHashCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.dfa.DFATreeCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.mealy.AbstractMealyCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.mealy.MealyDAGCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.mealy.MealyTreeCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.mealy.SymbolQueryCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.sul.AbstractSULCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.sul.SULDAGCacheTest&quot;/&gt;
+      &lt;class name=&quot;de.learnlib.filter.cache.sul.SULTreeCacheTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (14 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(70);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testNoQueriesReceived')
+data.setCell(0, 2, 'de.learnlib.filter.cache.dfa.DFADAGCacheTest')
+data.setCell(0, 3, 37);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFirstQuery')
+data.setCell(1, 2, 'de.learnlib.filter.cache.dfa.DFADAGCacheTest')
+data.setCell(1, 3, 23);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCacheConsistency')
+data.setCell(2, 2, 'de.learnlib.filter.cache.mealy.SymbolQueryCacheTest')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCacheConsistency')
+data.setCell(3, 2, 'de.learnlib.filter.cache.dfa.DFADAGCacheTest')
+data.setCell(3, 3, 5);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testFirstQuery')
+data.setCell(4, 2, 'de.learnlib.filter.cache.mealy.MealyDAGCacheTest')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCacheConsistency')
+data.setCell(5, 2, 'de.learnlib.filter.cache.mealy.MealyDAGCacheTest')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testFirstQuery')
+data.setCell(6, 2, 'de.learnlib.filter.cache.mealy.SymbolQueryCacheTest')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testNoQueriesReceived')
+data.setCell(7, 2, 'de.learnlib.filter.cache.mealy.MealyTreeCacheTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testNoQueriesReceived')
+data.setCell(8, 2, 'de.learnlib.filter.cache.sul.SULTreeCacheTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(9, 2, 'de.learnlib.filter.cache.mealy.MealyDAGCacheTest')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFirstQuery')
+data.setCell(10, 2, 'de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(11, 2, 'de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testOneNewQuery')
+data.setCell(12, 2, 'de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(13, 2, 'de.learnlib.filter.cache.sul.SULDAGCacheTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testNoQueriesReceived')
+data.setCell(14, 2, 'de.learnlib.filter.cache.mealy.SymbolQueryCacheTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testFirstQuery')
+data.setCell(15, 2, 'de.learnlib.filter.cache.dfa.DFAHashCacheTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testFirstQuery')
+data.setCell(16, 2, 'de.learnlib.filter.cache.sul.SULDAGCacheTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(17, 2, 'de.learnlib.filter.cache.dfa.DFATreeCacheTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCacheConsistency')
+data.setCell(18, 2, 'de.learnlib.filter.cache.mealy.MealyTreeCacheTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testOneNewQuery')
+data.setCell(19, 2, 'de.learnlib.filter.cache.dfa.DFADAGCacheTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCacheConsistency')
+data.setCell(20, 2, 'de.learnlib.filter.cache.dfa.DFATreeCacheTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCacheConsistency')
+data.setCell(21, 2, 'de.learnlib.filter.cache.sul.SULDAGCacheTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testOneNewQuery')
+data.setCell(22, 2, 'de.learnlib.filter.cache.sul.SULDAGCacheTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testFirstQuery')
+data.setCell(23, 2, 'de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testNoQueriesReceived')
+data.setCell(24, 2, 'de.learnlib.filter.cache.sul.SULDAGCacheTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testFirstQuery')
+data.setCell(25, 2, 'de.learnlib.filter.cache.sul.SULTreeCacheTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testFirstDuplicate')
+data.setCell(26, 2, 'de.learnlib.filter.cache.sul.SULDAGCacheTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCacheConsistency')
+data.setCell(27, 2, 'de.learnlib.filter.cache.dfa.DFAHashCacheTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testOneNewQuery')
+data.setCell(28, 2, 'de.learnlib.filter.cache.sul.SULTreeCacheTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(29, 2, 'de.learnlib.filter.cache.sul.SULTreeCacheTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCacheConsistency')
+data.setCell(30, 2, 'de.learnlib.filter.cache.sul.SULTreeCacheTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(31, 2, 'de.learnlib.filter.cache.mealy.SymbolQueryCacheTest')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testOneNewQuery')
+data.setCell(32, 2, 'de.learnlib.filter.cache.mealy.MealyDAGCacheTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testCacheConsistency')
+data.setCell(33, 2, 'de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testNoQueriesReceived')
+data.setCell(34, 2, 'de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testNoQueriesReceived')
+data.setCell(35, 2, 'de.learnlib.filter.cache.dfa.DFATreeCacheTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testCacheConsistency')
+data.setCell(36, 2, 'de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testOneNewQuery')
+data.setCell(37, 2, 'de.learnlib.filter.cache.dfa.DFAHashCacheTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(38, 2, 'de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testPrefix')
+data.setCell(39, 2, 'de.learnlib.filter.cache.sul.SULTreeCacheTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testPrefix')
+data.setCell(40, 2, 'de.learnlib.filter.cache.dfa.DFAHashCacheTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testOneNewQuery')
+data.setCell(41, 2, 'de.learnlib.filter.cache.dfa.DFATreeCacheTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testOneNewQuery')
+data.setCell(42, 2, 'de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(43, 2, 'de.learnlib.filter.cache.mealy.MealyTreeCacheTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testPrefix')
+data.setCell(44, 2, 'de.learnlib.filter.cache.mealy.MealyDAGCacheTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(45, 2, 'de.learnlib.filter.cache.dfa.DFADAGCacheTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testFirstDuplicate')
+data.setCell(46, 2, 'de.learnlib.filter.cache.dfa.DFATreeCacheTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testOneNewQuery')
+data.setCell(47, 2, 'de.learnlib.filter.cache.mealy.MealyTreeCacheTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testNoQueriesReceived')
+data.setCell(48, 2, 'de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testFirstDuplicate')
+data.setCell(49, 2, 'de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testFirstDuplicate')
+data.setCell(50, 2, 'de.learnlib.filter.cache.mealy.MealyDAGCacheTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testNoQueriesReceived')
+data.setCell(51, 2, 'de.learnlib.filter.cache.dfa.DFAHashCacheTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testNoQueriesReceived')
+data.setCell(52, 2, 'de.learnlib.filter.cache.mealy.MealyDAGCacheTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testPrefix')
+data.setCell(53, 2, 'de.learnlib.filter.cache.dfa.DFADAGCacheTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testFirstQuery')
+data.setCell(54, 2, 'de.learnlib.filter.cache.dfa.DFATreeCacheTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testFirstQuery')
+data.setCell(55, 2, 'de.learnlib.filter.cache.mealy.MealyTreeCacheTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testFirstDuplicate')
+data.setCell(56, 2, 'de.learnlib.filter.cache.dfa.DFAHashCacheTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testFirstDuplicate')
+data.setCell(57, 2, 'de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testPrefix')
+data.setCell(58, 2, 'de.learnlib.filter.cache.dfa.DFATreeCacheTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testTwoQueriesOneDuplicate')
+data.setCell(59, 2, 'de.learnlib.filter.cache.dfa.DFAHashCacheTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testPrefix')
+data.setCell(60, 2, 'de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testPrefix')
+data.setCell(61, 2, 'de.learnlib.filter.cache.mealy.MealyTreeCacheTest')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testFirstDuplicate')
+data.setCell(62, 2, 'de.learnlib.filter.cache.mealy.MealyTreeCacheTest')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testFirstDuplicate')
+data.setCell(63, 2, 'de.learnlib.filter.cache.dfa.DFADAGCacheTest')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testPrefix')
+data.setCell(64, 2, 'de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testPrefix')
+data.setCell(65, 2, 'de.learnlib.filter.cache.mealy.SymbolQueryCacheTest')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testFirstDuplicate')
+data.setCell(66, 2, 'de.learnlib.filter.cache.mealy.SymbolQueryCacheTest')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testPrefix')
+data.setCell(67, 2, 'de.learnlib.filter.cache.sul.SULDAGCacheTest')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'testOneNewQuery')
+data.setCell(68, 2, 'de.learnlib.filter.cache.mealy.SymbolQueryCacheTest')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testFirstDuplicate')
+data.setCell(69, 2, 'de.learnlib.filter.cache.sul.SULTreeCacheTest')
+data.setCell(69, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 112 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFADAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">134 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULDAGCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">139 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">141 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">142 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">143 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">143 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">152 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">156 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">159 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">161 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">162 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFAHashCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">167 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyDAGMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">169 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.sul.SULTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">176 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">177 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">179 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">180 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">181 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.dfa.DFATreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">184 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">187 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">192 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.MealyTreeMapperCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">de.learnlib.filter.cache.mealy.SymbolQueryCacheTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNoQueriesReceived</span>
+                <span class="method-start">208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFirstQuery</span>
+                <span class="method-start">210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFirstDuplicate</span>
+                <span class="method-start">213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTwoQueriesOneDuplicate</span>
+                <span class="method-start">213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOneNewQuery</span>
+                <span class="method-start">214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCacheConsistency</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrefix</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="906" started-at="2018-04-19T08:22:29Z" finished-at="2018-04-19T08:22:30Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="906" started-at="2018-04-19T08:22:29Z" finished-at="2018-04-19T08:22:30Z">
+      <class name="de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest@2b98378d]" name="setup" is-config="true" duration-ms="3" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest@2b98378d]" name="testSuspendAndResumeLearner" duration-ms="13" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.lstar.RivestSchapireDFAResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest@4b9e13df]" name="setup" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest@4b9e13df]" name="testGrowingAlphabetAlphabet" duration-ms="2" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest@4b9e13df]" name="testInitialAlphabet" duration-ms="2" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.lstar.RivestSchapireDFAGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest@55f3ddb1]" name="setup" is-config="true" duration-ms="2" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest@55f3ddb1]" name="testGrowingAlphabetAlphabet" duration-ms="4" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest@55f3ddb1]" name="testInitialAlphabet" duration-ms="3" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.lstar.MalerPnueliDFAGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest@8bd1b6a]" name="setup" is-config="true" duration-ms="4" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest@8bd1b6a]" name="testSuspendAndResumeLearner" duration-ms="12" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.lstar.MalerPnueliDFAResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest@29ee9faa]" name="setup" is-config="true" duration-ms="6" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest@29ee9faa]" name="testSuspendAndResumeLearner" duration-ms="40" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.lstar.ExtensibleLStarMealyResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.lstar.LStarMealyTest">
+        <test-method status="PASS" signature="testClassicLStarMealy()[pri:0, instance:de.learnlib.algorithms.lstar.LStarMealyTest@cc285f4]" name="testClassicLStarMealy" duration-ms="32" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicLStarMealy -->
+        <test-method status="PASS" signature="testOptimizedLStarMealy()[pri:0, instance:de.learnlib.algorithms.lstar.LStarMealyTest@cc285f4]" name="testOptimizedLStarMealy" duration-ms="13" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOptimizedLStarMealy -->
+      </class> <!-- de.learnlib.algorithms.lstar.LStarMealyTest -->
+      <class name="de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest@475530b9]" name="setup" is-config="true" duration-ms="3" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest@475530b9]" name="testGrowingAlphabetAlphabet" duration-ms="3" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest@475530b9]" name="testInitialAlphabet" duration-ms="2" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.lstar.RivestSchapireMealyGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest@1d057a39]" name="setup" is-config="true" duration-ms="4" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest@1d057a39]" name="testSuspendAndResumeLearner" duration-ms="16" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.lstar.RivestSchapireMealyResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest@18be83e4]" name="setup" is-config="true" duration-ms="1" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest@18be83e4]" name="testGrowingAlphabetAlphabet" duration-ms="3" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest@18be83e4]" name="testInitialAlphabet" duration-ms="2" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.lstar.MalerPnueliMealyGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest@724af044]" name="setup" is-config="true" duration-ms="112" started-at="2018-04-19T17:22:29Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest@724af044]" name="testGrowingAlphabetAlphabet" duration-ms="113" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest@724af044]" name="testInitialAlphabet" duration-ms="12" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.lstar.ExtensibleLStarDFAGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.lstar.LStarDFATest">
+        <test-method status="PASS" signature="testLStar()[pri:0, instance:de.learnlib.algorithms.lstar.LStarDFATest@c038203]" name="testLStar" duration-ms="351" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLStar -->
+      </class> <!-- de.learnlib.algorithms.lstar.LStarDFATest -->
+      <class name="de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest@cb5822]" name="setup" is-config="true" duration-ms="3" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest@cb5822]" name="testSuspendAndResumeLearner" duration-ms="19" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.lstar.MalerPnueliMealyResumableLearnerTest -->
+      <class name="de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest@6767c1fc]" name="setup" is-config="true" duration-ms="3" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testGrowingAlphabetAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest@6767c1fc]" name="testGrowingAlphabetAlphabet" duration-ms="5" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrowingAlphabetAlphabet -->
+        <test-method status="PASS" signature="testInitialAlphabet()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest@6767c1fc]" name="testInitialAlphabet" duration-ms="4" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialAlphabet -->
+      </class> <!-- de.learnlib.algorithms.lstar.ExtensibleLStarMealyGrowingAlphabetTest -->
+      <class name="de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest@4678c730]" name="setup" is-config="true" duration-ms="4" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSuspendAndResumeLearner()[pri:0, instance:de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest@4678c730]" name="testSuspendAndResumeLearner" duration-ms="75" started-at="2018-04-19T17:22:30Z" finished-at="2018-04-19T17:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuspendAndResumeLearner -->
+      </class> <!-- de.learnlib.algorithms.lstar.ExtensibleLStarDFAResumableLearnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

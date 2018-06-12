@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="276" started-at="2018-04-19T08:21:38Z" finished-at="2018-04-19T08:21:39Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="276" started-at="2018-04-19T08:21:38Z" finished-at="2018-04-19T08:21:39Z">
+      <class name="de.learnlib.api.modelchecking.counterexample.DFALassoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.DFALassoTest@61dc03ce]" name="setUp" is-config="true" duration-ms="196" started-at="2018-04-19T17:21:38Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetLoop()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.DFALassoTest@61dc03ce]" name="testGetLoop" duration-ms="3" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoop -->
+        <test-method status="PASS" signature="testGetLoopBeginIndices()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.DFALassoTest@61dc03ce]" name="testGetLoopBeginIndices" duration-ms="1" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoopBeginIndices -->
+        <test-method status="PASS" signature="testGetPrefix()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.DFALassoTest@61dc03ce]" name="testGetPrefix" duration-ms="1" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrefix -->
+        <test-method status="PASS" signature="testGetWord()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.DFALassoTest@61dc03ce]" name="testGetWord" duration-ms="1" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWord -->
+        <test-method status="PASS" signature="testGetOutput()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.DFALassoTest@61dc03ce]" name="testGetOutput" duration-ms="0" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOutput -->
+      </class> <!-- de.learnlib.api.modelchecking.counterexample.DFALassoTest -->
+      <class name="de.learnlib.api.logging.LearnLoggerTest">
+        <test-method status="PASS" signature="testGetLogger()[pri:0, instance:de.learnlib.api.logging.LearnLoggerTest@737996a0]" name="testGetLogger" duration-ms="3" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLogger -->
+        <test-method status="PASS" signature="testLogPhase()[pri:0, instance:de.learnlib.api.logging.LearnLoggerTest@737996a0]" name="testLogPhase" duration-ms="37" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogPhase -->
+        <test-method status="PASS" signature="testLogQuery()[pri:0, instance:de.learnlib.api.logging.LearnLoggerTest@737996a0]" name="testLogQuery" duration-ms="1" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogQuery -->
+      </class> <!-- de.learnlib.api.logging.LearnLoggerTest -->
+      <class name="de.learnlib.api.modelchecking.counterexample.MealyLassoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.MealyLassoTest@50f8360d]" name="setUp" is-config="true" duration-ms="1" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetLoop()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.MealyLassoTest@50f8360d]" name="testGetLoop" duration-ms="0" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoop -->
+        <test-method status="PASS" signature="testGetLoopBeginIndices()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.MealyLassoTest@50f8360d]" name="testGetLoopBeginIndices" duration-ms="0" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLoopBeginIndices -->
+        <test-method status="PASS" signature="testGetPrefix()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.MealyLassoTest@50f8360d]" name="testGetPrefix" duration-ms="0" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPrefix -->
+        <test-method status="PASS" signature="testGetOutput()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.MealyLassoTest@50f8360d]" name="testGetOutput" duration-ms="0" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOutput -->
+        <test-method status="PASS" signature="testGetWord()[pri:0, instance:de.learnlib.api.modelchecking.counterexample.MealyLassoTest@50f8360d]" name="testGetWord" duration-ms="0" started-at="2018-04-19T17:21:39Z" finished-at="2018-04-19T17:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWord -->
+      </class> <!-- de.learnlib.api.modelchecking.counterexample.MealyLassoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+de\learnlib\oracle\parallelism\DynamicParallelOracleBuilder.class
+de\learnlib\oracle\parallelism\DynamicParallelOracleBuilder$1.class
+de\learnlib\oracle\parallelism\ParallelOracleBuilders.class
+de\learnlib\oracle\parallelism\StaticParallelOracle.class
+de\learnlib\oracle\parallelism\ParallelOracle.class
+de\learnlib\oracle\parallelism\AbstractQueriesJob.class
+de\learnlib\oracle\parallelism\StaticParallelOracle$1.class
+de\learnlib\oracle\parallelism\StaticParallelOracleBuilder.class
+de\learnlib\oracle\parallelism\DynamicParallelOracle.class
+de\learnlib\oracle\parallelism\StaticQueriesJob.class
+de\learnlib\oracle\parallelism\ParallelOracleInterruptedException.class
+de\learnlib\oracle\parallelism\DynamicQueriesJob.class
+de\learnlib\oracle\parallelism\ParallelOracle$PoolPolicy.class

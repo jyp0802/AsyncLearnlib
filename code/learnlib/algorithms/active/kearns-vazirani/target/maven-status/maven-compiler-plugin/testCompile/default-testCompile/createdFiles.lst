@@ -1,0 +1,6 @@
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFAResumableLearnerTest.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealyIT.class
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFAGrowingAlphabetTest.class
+de\learnlib\algorithms\kv\dfa\KearnsVaziraniDFAIT.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealyGrowingAlphabetTest.class
+de\learnlib\algorithms\kv\mealy\KearnsVaziraniMealyResumableLearnerTest.class
