@@ -3,13 +3,13 @@
 ### TCP_server
 Python server code used for RaspberryPi 3
 
-### code/learnlib
-Original Learnlib code
-
 ### TCP_learner.java
 Main learner for TCP handshake
 
-### Modifications in Learnlib
+### code/learnlib
+Original Learnlib code with modifications for asynchronous querying as shown below.
+
+#### Modifications in Learnlib
 Mostly duplicating existing query functions to support multiple querying.
 
 Main modificatoins in:
